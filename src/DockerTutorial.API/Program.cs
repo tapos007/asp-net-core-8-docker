@@ -17,6 +17,12 @@ builder.Services.AddDbContext<ApplicationDbContext>(
         option.UseSqlServer(builder.Configuration.GetConnectionString("ApplicationDb"));
     });
 
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+    options.Configuration = builder.Configuration.GetConnectionString("MyRedisConStr");
+    options.InstanceName = "SampleInstance";
+});
+
 var app = builder.Build();
 
 

@@ -7,13 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E93FF413-507
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{62E79DD8-B031-4FA8-B4D0-E771E42854A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerTutorial.API", "src\DockerTutorial.API\DockerTutorial.API.csproj", "{0414C277-EAEA-4A1F-9BE9-25E270522DA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DockerTutorial.API", "src\DockerTutorial.API\DockerTutorial.API.csproj", "{0414C277-EAEA-4A1F-9BE9-25E270522DA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerTutorial.BLL", "src\DockerTutorial.BLL\DockerTutorial.BLL.csproj", "{A08E1C71-C425-4828-8EC4-6A34FD3CF9C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DockerTutorial.BLL", "src\DockerTutorial.BLL\DockerTutorial.BLL.csproj", "{A08E1C71-C425-4828-8EC4-6A34FD3CF9C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerTutorial.DLL", "src\DockerTutorial.DLL\DockerTutorial.DLL.csproj", "{F1A9269A-1A76-40CE-AC17-9F4DF643F594}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DockerTutorial.DLL", "src\DockerTutorial.DLL\DockerTutorial.DLL.csproj", "{F1A9269A-1A76-40CE-AC17-9F4DF643F594}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerTutorial.Tests", "tests\DockerTutorial.Tests\DockerTutorial.Tests.csproj", "{2625C3FF-6C03-496B-B8AF-69B0CF65FF30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DockerTutorial.Tests", "tests\DockerTutorial.Tests\DockerTutorial.Tests.csproj", "{2625C3FF-6C03-496B-B8AF-69B0CF65FF30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
