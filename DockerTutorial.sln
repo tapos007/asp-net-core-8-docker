@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DockerTutorial.DLL", "src\D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DockerTutorial.Tests", "tests\DockerTutorial.Tests\DockerTutorial.Tests.csproj", "{2625C3FF-6C03-496B-B8AF-69B0CF65FF30}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{D20859A5-1EE9-4F85-B2E9-7C01D9FDED1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{2625C3FF-6C03-496B-B8AF-69B0CF65FF30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2625C3FF-6C03-496B-B8AF-69B0CF65FF30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2625C3FF-6C03-496B-B8AF-69B0CF65FF30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D20859A5-1EE9-4F85-B2E9-7C01D9FDED1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D20859A5-1EE9-4F85-B2E9-7C01D9FDED1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D20859A5-1EE9-4F85-B2E9-7C01D9FDED1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D20859A5-1EE9-4F85-B2E9-7C01D9FDED1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
